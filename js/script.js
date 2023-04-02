@@ -13,14 +13,14 @@
     
 // IndexOf & lastIndexOf
 
-// let text = "To be or not to be.";
-// console.log("Actual text ==== ", text, text.length);
+let text = "To be or not to be.";
+console.log("Actual text ==== ", text, text.length);
 
-// let segIndexOF = text.indexOf("be");
-// console.log("be ==== ", segIndexOF, );
+let segIndexOF = text.indexOf("be");
+console.log("be ==== ", segIndexOF, );
 
-// let segLastIndexOf = text.lastIndexOf("be");
-// console.log("be ==== ", segLastIndexOf);
+let segLastIndexOf = text.lastIndexOf("be");
+console.log("be ==== ", segLastIndexOf);
 
 //////////////////////////////////////////////////////////////////
 
@@ -46,7 +46,7 @@
 // let text = `The New Yorker magazine doesn't allow the phrase World War II.`;
 // console.log("Actual text ==== ", text);
 
-/*********** Replacing characters: Using Slice method"
+//*********** Replacing characters: Using Slice method"
 // console.log("Replacing characters: Using Slice method");
 // let foundIndex = text.indexOf(`World War II`);
 // console.log(`World War II ====== `, foundIndex);
@@ -56,12 +56,12 @@
 // console.log("Replacing characters: Using Replace method");
 // console.log(text.replace(`World War II`,`the Second World War`));
 
-// ******   Replacing characters: Replacing all MAtched String: Using Replace method === .replace(/***** str *****/g,"string that want")
-console.log(`Replacing all MAtched String: Using Replace method === .replace(/***** str *****/g,"string that want")`);
-let newtext = `JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced`;
-console.log("Actual text ==== ", newtext);
-console.log("OUtput === ", newtext.replace(/JavaScript/g,`JS`));
-
-
+// ******   `Replacing characters: Replacing all MAtched String: Using Replace method === .replace(/String/g,"string that want")`
+// console.log(`Replacing all MAtched String: Using Replace method === .replace(/str/g,"string that want")`);
+// let newtext = `JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced`;
+// console.log("Actual text ==== ", newtext);
+// console.log("OUtput === ", newtext.replace(/JavaScript/g,`JS`));
 
 // *****************************END CHAPTER 25*************************************
+
+// *****************************CHAPTER 26 *************************************
