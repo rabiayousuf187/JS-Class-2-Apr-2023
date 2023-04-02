@@ -13,14 +13,14 @@
     
 // IndexOf & lastIndexOf
 
-let text = "To be or not to be.";
-console.log("Actual text ==== ", text, text.length);
+// let text = "To be or not to be.";
+// console.log("Actual text ==== ", text, text.length);
 
-let segIndexOF = text.indexOf("be");
-console.log("be ==== ", segIndexOF, );
+// let segIndexOF = text.indexOf("be");
+// console.log("be ==== ", segIndexOF, );
 
-let segLastIndexOf = text.lastIndexOf("be");
-console.log("be ==== ", segLastIndexOf);
+// let segLastIndexOf = text.lastIndexOf("be");
+// console.log("be ==== ", segLastIndexOf);
 
 //////////////////////////////////////////////////////////////////
 
@@ -65,3 +65,50 @@ console.log("be ==== ", segLastIndexOf);
 // *****************************END CHAPTER 25*************************************
 
 // *****************************CHAPTER 26 *************************************
+// CHapter 26:   Rounding numbers
+console.log("CHapter 26:   Rounding numbers");
+// console.log("Math.round()");
+// console.log('2.0 ==== ',Math.round(2.0));
+// console.log('2.1 ==== ',Math.round(2.1));
+// console.log('2.45 ==== ',Math.round(2.45));
+// console.log('2.5 ==== ',Math.round(2.5));
+// console.log('2.7 ==== ',Math.round(2.7));
+// console.log('-2.0 ==== ',Math.round(-2.0));
+// console.log('-2.1 ==== ',Math.round(-2.1));
+// console.log('-2.5 ==== ',Math.round(-2.5));
+// console.log('-2.8 ==== ',Math.round(-2.8));
+
+console.log("Math.ceil()");
+console.log("Always goes forward");
+console.log('2.0 ==== ',Math.ceil(2.0));
+console.log('2.1 ==== ',Math.ceil(2.1));
+console.log('2.5 ==== ',Math.ceil(2.5));
+console.log('2.7 ==== ',Math.ceil(2.7));
+console.log('-2.0 ==== ',Math.ceil(-2.0));
+console.log('-2.1 ==== ',Math.ceil(-2.1));
+console.log('-2.5 ==== ',Math.ceil(-2.5));
+console.log('-2.8 ==== ',Math.ceil(-2.8));
+
+console.log("Math.floor()");
+console.log("Always goes backward");
+console.log('2.0 ==== ',Math.floor(2.0));
+console.log('2.1 ==== ',Math.floor(2.1));
+console.log('2.5 ==== ',Math.floor(2.5));
+console.log('2.7 ==== ',Math.floor(2.7));
+console.log('-2.0 ==== ',Math.floor(-2.0));
+console.log('-2.1 ==== ',Math.floor(-2.1));
+console.log('-2.5 ==== ',Math.floor(-2.5));
+console.log('-2.8 ==== ',Math.floor(-2.8));
+
+console.log("Math.random()");
+console.log("Random Values generated b/w ==== 0 to 1");
+console.log('Random Value === ',Math.random());
+console.log('Random Value === ',Math.random());
+console.log('Random Value === ',Math.random());
+console.log('Random Value === ',Math.random());
+
+/////// FOr DIC
+// Math.ceil for 0 < n < 6
+console.log('FOr DIC === ');
+console.log('Random Value b/w 0 to 6 === ',Math.ceil(Math.random()*5));
+
